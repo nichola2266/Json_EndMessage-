@@ -9,40 +9,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div id="gameContainer">
-        <h1 id="gameTitle">SPACE DEBRIS RUSH</h1>
-        <div id="scoreBoard">
-            <div class="stat">
-                <span class="stat-lebel">Debris destroyed</span>
-                <span class="stat-value" id="destroyed">0</span>
+
+
+<!-- COPY FROM HERE ON -->
+
+<div class="messageBackground">
+    <div class="message">
+        <div class="messagebox" id="messageBox">
+            <div class="text-section">
+                    <h1>IMPRESSIVE WORK, SPACE CADETS!</h1>
+                    <p >
+                        You've done a great job cleaning up in Space Debris! You know, when I studied Earth's orbit, I realized that if too much junk crashes together, it can create even more debris. That chain reaction is what we now call the Kessler Syndrome. It's not all bad news, though. It means we have the power to make a difference! By building smarter satellites and thinking ahead, we can keep space safe and open for future explorers like you. So keep looking up… and keep it clean out there!
+                    </p>
             </div>
-            <div class="stat">
-                <span class="stat-lebel">Actual Debris</span>
-                <span class="stat-value" id="active">16</span>
+
+            <div class="KefflerImage">
+                    <img src="img/Kesslerphoto.png" 
+            
             </div>
-            <div class="stat">
-                <span class="stat-lebel">Time:</span>
-                <span class="stat-value" id="timer">0s</span>
-            </div>
+                <alt id="kesslername">Donald.J.Keffler (NASA)</alt>
         </div>
-
-        <div id="museumInfo">
-            <h3>The Great Acceleration</h3>
-            <p>Every time you destroy a piece of space debris, two more appear. This represents how space debris grows exponentially every year.</p>
-        </div>
-
-        <div id="gameArea">
-            <img id="earth" src="img/Earth.png" class="earth">
-            <div id="debrisContainer"></div>
-            <div id="particlesContainer"></div>
-        </div>
-
-        <div id="info">
-            <p>Click on the space debris to clean Earth's orbit.</p>
-        </div>
-
     </div>
+</div>
+
+<!-- END HERE -->
+
+
     <script src="script.js"></script>
 </body>
 </html>
